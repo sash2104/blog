@@ -1,4 +1,4 @@
 baseURL = "https://sash.netlify.com/"
-languageCode = "utf8"
+languageCode = "ja"
 title = "sash's memo"
-theme = "ananke"
+theme = "editor"
