@@ -1,6 +1,6 @@
 baseURL = "https://sash.netlify.com/"
 languageCode = "ja"
-defaultContentLanguage = "ja"                             # en / zh-cn / ... (This field determines which i18n file to use)
+defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "sash's memo"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
