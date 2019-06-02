@@ -2,7 +2,7 @@
 title: "A Code of Ice & Fire 参加記"
 date: 2019-06-01T13:34:22+09:00
 lastmod: 2019-06-02T20:22:39+09:00
-draft: true
+draft: false
 keywords: []
 description: ""
 tags: []
