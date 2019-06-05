@@ -14,3 +14,44 @@
   padding: 0 0 0 .2em;
   border-left: solid 3px #34495e;
 }
+
+
+.copy-code-button {
+  font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+  background-color: #fefefe;
+  color: #34495e;
+  border: 4px solid;
+  border-radius: 4px 4px 0px 0px;
+  border-color: #f8f5ec;
+
+  /* right-align */
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+
+  margin-bottom: -16px;
+
+  padding: 2px 8px;
+  font-size: 1em;
+}
+
+.copy-code-button:hover {
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+
+.copy-code-button:focus {
+  /* avoid an ugly focus outline on click in Chrome, but darken the button
+     for accessibility. https://stackoverflow.com/a/25298082/1481479 */
+  background-color: #e6e6e6;
+  outline: 0;
+}
+
+.copy-code-button:active {
+  background-color: #d9d9d9;
+}
+
+.highlight pre {
+  /* Avoid pushing up the copy buttons */
+  margin: 0;
+}
