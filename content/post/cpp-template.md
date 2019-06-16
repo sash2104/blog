@@ -1,7 +1,7 @@
 ---
-title: "C++ Sample"
-date: 2019-06-04T21:50:57+09:00
-lastmod: 2019-06-04T21:50:57+09:00
+title: "C++ Template"
+date: 2019-06-16T11:36:39+09:00
+lastmod: 2019-06-16T11:36:39+09:00
 draft: false
 keywords: []
 description: ""
@@ -40,5 +40,13 @@ sequenceDiagrams:
 
 ---
 
-{{< file "includes/sample.cpp" >}}
+## 汎用テンプレート
+{{< file "includes/template.cpp" >}}
+
+## デバッグ用テンプレート
+{{< file "includes/debug.cpp" >}}
+
+## 参考リンク
+- http://ehafib.hatenablog.com/entry/2015/12/23/164232
+- http://genkisugimoto.com/jp/blog/procon/2015/04/15/print-debug-technique-in-cpp.html
 <!--more-->
