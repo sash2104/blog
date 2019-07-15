@@ -47,7 +47,7 @@ LCA (最小共通祖先) のdoublingによる実装
 {{< file "includes/lca.cpp" >}}
 
 ## 利用例
-![img](../image/cpp-lca-graph.png "img")
+![img](/image/cpp-lca-graph.png "img")
 ```sh
 % g++ -std=gnu++1y -O2 lca.cpp -o lca
 % ./lca
