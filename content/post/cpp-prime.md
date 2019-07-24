@@ -1,5 +1,5 @@
 ---
-title: "Cpp Prime"
+title: "C++ 素数列挙"
 date: 2019-07-24T23:25:17+09:00
 lastmod: 2019-07-24T23:25:17+09:00
 draft: false
