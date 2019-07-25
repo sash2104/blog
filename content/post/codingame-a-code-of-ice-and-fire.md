@@ -40,17 +40,17 @@ sequenceDiagrams:
 
 ---
 
-# 概要
+## 概要
 CodinGameで5/18-27の10日間開催されたコンテスト  
 雰囲気はhttps://www.codingame.com/replay/391527675 のような感じ
 <!--more-->
 
 
-# 結果
+## 結果
 世界83位/2160人、日本6位/71人、Goldリーグ
 
 
-# 最終的に提出したもの
+## 最終的に提出したもの
 
 ### アルゴリズム概要
 - 下記を順に実行
@@ -102,12 +102,12 @@ CodinGameで5/18-27の10日間開催されたコンテスト
       - 周囲8マスにある自分の陣地以外のマスの数
       - 残りはunitのmoveの評価関数と同じ
 
-# 感想
+## 感想
 - CODE VS 4.0やPlatinum Riftでも思ったが、多数のunitを操作する系のものは何をやればいいのかよくわからない
 - goldに余裕を持って到達できたのと、CodinGameのコンテストで初めて100位以内で終われたのは良かった
 - 次こそlegendに...
 
-# 補足
+## 補足
 ### 各リーグ毎にやったこと
 - wood3 -> wood2, wood1
   - trainは敵の陣地かneutralなcellではじめに見つかった場所、gold>=20ならlevel1のunitを一体出す
@@ -136,7 +136,7 @@ CodinGameで5/18-27の10日間開催されたコンテスト
   - 敵の陣地ぶった切りの改善 (上位陣と比べて、ぶった切り候補の列挙が甘い)
   - unitのtrainをターンに一体ではなく複数体行う
 
-# リンク
+## リンク
 ### 他の参加者の情報
 - https://www.codingame.com/forum/t/code-of-ice-fire/105722
 - https://valgrowth.hatenablog.com/entry/2019/05/30/214003 (6位)
