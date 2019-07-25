@@ -43,6 +43,8 @@ sequenceDiagrams:
 ## 概要
 エラトステネスの篩による素数の列挙
 
+<!--more-->
+
 ## テンプレート
 {{< file "includes/prime.cpp" >}}
 
