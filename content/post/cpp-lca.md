@@ -42,6 +42,7 @@ sequenceDiagrams:
 
 ## 概要
 LCA (最小共通祖先) のdoublingによる実装
+<!--more-->
 
 ## テンプレート
 {{< file "includes/lca.cpp" >}}

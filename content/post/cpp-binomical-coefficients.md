@@ -40,9 +40,12 @@ sequenceDiagrams:
 
 ---
 
+## 概要
+二項係数のテンプレート
+<!--more-->
+
 ## テンプレート
 {{< file "includes/binomical-coefficients.cpp" >}}
 
 ## 参考リンク
 - https://izumo27.hatenablog.com/entry/2018/06/04/213000
-<!--more-->
