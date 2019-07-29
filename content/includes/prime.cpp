@@ -9,7 +9,9 @@ public:
   const int n;
   vector<bool> is_prime;
   vector<int> primes;
-  Prime(int size) : n(size), is_prime(n, true) {
+  Prime(int size) : n(size), is_prime(n+1, true) {
+    is_prime[0] = false;
+    is_prime[1] = false;
     for (int i = 2; i <= n; ++i) {
       if (!is_prime[i]) continue;
       primes.push_back(i);
@@ -20,6 +22,8 @@ public:
       }
     }
   }
+
+  bool check(int x) { return is_prime[x]; }
 };
 
 int main() {
