@@ -48,6 +48,7 @@ sequenceDiagrams:
 {{< file "includes/topological-sort.cpp" >}}
 
 ## 利用例
+![img](/image/cpp-topological-sort-2.png "img")
 ```sh
 % g++ -std=gnu++1y -O2 topological-sort.cpp -o run
 % cat 1.in
@@ -59,7 +60,10 @@ sequenceDiagrams:
 % ./run < 1.in
 This graph is DAG
 1 2 0 4 3
+```
 
+![img](/image/cpp-topological-sort-1.png "img")
+```sh
 % cat 2.in
 4 4
 0 1
