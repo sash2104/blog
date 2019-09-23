@@ -15,7 +15,7 @@ std::vector<int> slideMin(const std::vector<T>& v, int k) {
     dq.push_back(i);
     if (i - k + 1 >= 0) {
       ret.push_back(dq.front());
-      if (dq.front() <= i-k) dq.pop_front();
+      if (dq.front() <= i-k+1) dq.pop_front();
     }
   }
   return ret;
