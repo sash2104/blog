@@ -57,7 +57,7 @@ $\mathcal{O}(N)$
 % ./slide-min
 1 3 5 4 2
 [0,2] id = 0, value = 1
-[1,3] id = 0, value = 1
+[1,3] id = 1, value = 3
 [2,4] id = 4, value = 2
 ```
 
