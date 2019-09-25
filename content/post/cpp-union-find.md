@@ -46,5 +46,18 @@ Union-Findのテンプレート
 ## テンプレート
 {{< file "includes/union-find.cpp" >}}
 
+## 利用例
+```sh
+% g++ -std=gnu++1y -O2 union-find.cpp -o run
+% ./run
+0 -1 1
+1 -4 4
+2 1 4
+3 1 4
+4 1 4
+2 and 4 is : 1 (1:same, 0:different)
+0 and 3 is : 0 (1:same, 0:different)
+```
+
 ## 参考
 - http://www.prefield.com/algorithm/container/union_find.html

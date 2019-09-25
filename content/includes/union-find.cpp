@@ -36,13 +36,8 @@ int main() {
   uf.unite(1, 2);
   uf.unite(2, 3);
   uf.unite(3, 4);
-  /* 結果は下記のようになる. (uf.data[i]が負のものはroot)
-0 -1 1
-1 -4 4
-2 1 4
-3 1 4
-4 1 4
-   */
+
+  /* dataとsizeの確認. data[i]が負の点はroot */
   for (int i = 0; i < 5; ++i) {
     cerr << i << " " << uf.data[i] << " " << uf.size(i) << endl;
   }
