@@ -45,3 +45,6 @@ Union-Findのテンプレート
 
 ## テンプレート
 {{< file "includes/union-find.cpp" >}}
+
+## 参考
+- http://www.prefield.com/algorithm/container/union_find.html
