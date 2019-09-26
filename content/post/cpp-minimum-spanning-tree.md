@@ -1,7 +1,7 @@
 ---
-title: "C++ トポロジカルソート"
-date: 2019-09-23T20:55:44+09:00
-lastmod: 2019-09-23T20:55:44+09:00
+title: "C++ 最小全域木 (クラスカル法)"
+date: 2019-09-26T23:16:01+09:00
+lastmod: 2019-09-26T23:16:01+09:00
 draft: false
 keywords: []
 description: ""
@@ -19,7 +19,7 @@ hiddenFromHomePage: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
 reward: false
-mathjax: true
+mathjax: false
 mathjaxEnableSingleDollar: false
 mathjaxEnableAutoNumber: false
 
@@ -41,39 +41,29 @@ sequenceDiagrams:
 ---
 
 ## 概要
-トポロジカルソートを求めるのと、ついでに閉路がない (DAG) かの判定をする
+クラスカル法による最小全域木
 <!--more-->
 
 ## テンプレート
-{{< file "includes/topological-sort.cpp" >}}
+{{< file "includes/minimum-spanning-tree.cpp" >}}
 
 ## 利用例
-![img](/image/cpp-topological-sort-2.png "img")
 ```sh
-% g++ -std=gnu++1y -O2 topological-sort.cpp -o run
 % cat 1.in
-5 4
-0 4
-1 4
-1 2
-4 3
+6 9
+0 1 1
+0 2 3
+1 2 1
+1 3 7
+2 4 1
+1 4 3
+3 4 1
+3 5 1
+4 5 6
+% g++ -std=gnu++1y -O2 minimum-spanning-tree.cpp -o run
 % ./run < 1.in
-This graph is DAG
-1 2 0 4 3
-```
-
-![img](/image/cpp-topological-sort-1.png "img")
-```sh
-% cat 2.in
-4 4
-0 1
-1 2
-2 3
-3 1
-% ./run < 2.in
-This graph is not DAG
-0
+5
 ```
 
 ## 参考リンク
-- https://ferin-tech.hatenablog.com/entry/2017/01/24/184750
+- http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_2_A
