@@ -40,4 +40,21 @@ sequenceDiagrams:
 
 ---
 
+## 概要
 <!--more-->
+
+## 計算量
+$\mathcal{O}(N)$
+
+## テンプレート
+{{< file "includes/xxx.cpp" >}}
+
+## 利用例
+![img](/image/xxx.png "img")  
+```sh
+% g++ -std=gnu++1y -O2 xxx.cpp -o run
+% ./run
+```
+
+## 参考リンク
+- foo
