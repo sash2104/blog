@@ -5,7 +5,7 @@ lastmod: 2019-07-24T23:25:17+09:00
 draft: false
 keywords: ["素数"]
 description: ""
-tags: []
+tags: ["整数"]
 categories: ["c++"]
 author: ""
 
