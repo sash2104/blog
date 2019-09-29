@@ -1,9 +1,9 @@
 ---
-title: "C++ 素数列挙"
-date: 2019-07-24T23:25:17+09:00
-lastmod: 2019-07-24T23:25:17+09:00
+title: "C++ 約数列挙"
+date: 2019-09-29T15:13:17+09:00
+lastmod: 2019-09-29T15:13:17+09:00
 draft: false
-keywords: ["素数"]
+keywords: []
 description: ""
 tags: ["整数"]
 categories: ["c++"]
@@ -19,8 +19,8 @@ hiddenFromHomePage: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
 reward: false
-mathjax: false
-mathjaxEnableSingleDollar: false
+mathjax: true
+mathjaxEnableSingleDollar: true
 mathjaxEnableAutoNumber: false
 
 # You unlisted posts you might want not want the header or footer to show
@@ -41,20 +41,33 @@ sequenceDiagrams:
 ---
 
 ## 概要
-エラトステネスの篩による素数の列挙
-
+約数の列挙
 <!--more-->
 
+## 計算量
+$\mathcal{O}(\sqrt{N})$
+
 ## テンプレート
-{{< file "includes/prime.cpp" >}}
+{{< file "includes/divisor.cpp" >}}
 
 ## 利用例
 ```sh
-% g++ -std=gnu++1y -O2 prime.cpp -o prime
-% ./prime
+% g++ -std=gnu++1y -O2 divisor.cpp -o run
+% time ./run
+divisors of 36 is ...
+1
 2
 3
-5
-7
+4
+6
+9
+12
+18
+36
+divisors of 999985999949 is ...
+1
+999983
+1000003
+999985999949
+./run  0.01s user 0.00s system 82% cpu 0.019 total
 ```
-<!--more-->

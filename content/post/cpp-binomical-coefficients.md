@@ -5,7 +5,7 @@ lastmod: 2019-06-23T16:42:29+09:00
 draft: false
 keywords: []
 description: ""
-tags: []
+tags: ["整数"]
 categories: ["c++"]
 author: ""
 
