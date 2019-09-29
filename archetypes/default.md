@@ -2,10 +2,10 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
-draft: true
+draft: false
 keywords: []
 description: ""
-tags: []
+tags: ["c++"]
 categories: []
 author: ""
 
@@ -19,8 +19,8 @@ hiddenFromHomePage: false
 # You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
 contentCopyright: false
 reward: false
-mathjax: false
-mathjaxEnableSingleDollar: false
+mathjax: true
+mathjaxEnableSingleDollar: true
 mathjaxEnableAutoNumber: false
 
 # You unlisted posts you might want not want the header or footer to show
