@@ -40,7 +40,6 @@ sequenceDiagrams:
 
 ---
 
-## 概要
 約数の列挙
 <!--more-->
 

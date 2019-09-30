@@ -40,9 +40,10 @@ sequenceDiagrams:
 
 ---
 
+競技プログラミングで使うC++のテンプレート
+<!--more-->
 ## 汎用テンプレート
 {{< file "includes/template.cpp" >}}
-<!--more-->
 
 ## デバッグ用テンプレート
 {{< file "includes/debug.cpp" >}}

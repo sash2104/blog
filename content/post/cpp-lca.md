@@ -40,7 +40,6 @@ sequenceDiagrams:
 
 ---
 
-## 概要
 LCA (最小共通祖先) のdoublingによる実装
 <!--more-->
 
@@ -60,5 +59,3 @@ lca of (4, 5) is 4
 
 ## 参考リンク
 - https://tubo28.me/compprog/algorithm/doubling-lca/
-
-<!--more-->

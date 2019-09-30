@@ -40,7 +40,6 @@ sequenceDiagrams:
 
 ---
 
-## 概要
 C++のmacroを使った下記のデバッグ出力のようなことをpythonでもやる
 <!--more-->
 ```cpp

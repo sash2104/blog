@@ -1,0 +1,26 @@
+{{- define "content" -}}
+<!-- Content -->
+<article class="post">
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+<section id="archive" class="archive">
+  {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+    {{ if eq $taxonomyname "tags" }}
+        {{ range $key, $value := $taxonomy }}
+        <h3> {{ $key }} </h3>
+            {{ range sort $value.Pages "Title" }}
+            <div class="archive-post">
+              <span class="archive-post-title">
+                <a href="{{ .RelPermalink }}" class="archive-post-link">
+                  {{ .Title }}
+                </a>
+              </span>
+            </div>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+  {{ end }}
+</section>
+</article>
+{{- end -}}

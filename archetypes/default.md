@@ -40,7 +40,6 @@ sequenceDiagrams:
 
 ---
 
-## 概要
 <!--more-->
 
 ## 計算量

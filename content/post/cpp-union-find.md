@@ -39,7 +39,6 @@ sequenceDiagrams:
   options: ""
 
 ---
-## 概要
 Union-Findのテンプレート
 <!--more-->
 

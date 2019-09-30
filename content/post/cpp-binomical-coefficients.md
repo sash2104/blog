@@ -39,8 +39,6 @@ sequenceDiagrams:
   options: ""
 
 ---
-
-## 概要
 二項係数のテンプレート
 <!--more-->
 
