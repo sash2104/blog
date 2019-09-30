@@ -5,7 +5,7 @@ lastmod: 2019-06-16T11:36:39+09:00
 draft: false
 keywords: []
 description: ""
-tags: []
+tags: ["common"]
 categories: ["c++"]
 author: ""
 

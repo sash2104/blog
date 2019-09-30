@@ -5,7 +5,7 @@ lastmod: 2019-09-23T11:53:50+09:00
 draft: false
 keywords: []
 description: ""
-tags: []
+tags: ["動的計画法"]
 categories: ["c++"]
 author: ""
 
