@@ -40,7 +40,6 @@ sequenceDiagrams:
 
 ---
 
-## 概要
 クラスカル法による最小全域木
 <!--more-->
 

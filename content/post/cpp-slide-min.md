@@ -40,7 +40,6 @@ sequenceDiagrams:
 
 ---
 
-## 概要
 スライド最小値
 
 <!--more-->

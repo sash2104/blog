@@ -40,7 +40,6 @@ sequenceDiagrams:
 
 ---
 
-## 概要
 CodinGameで5/18-27の10日間開催されたコンテスト  
 雰囲気はhttps://www.codingame.com/replay/391527675 のような感じ
 <!--more-->
